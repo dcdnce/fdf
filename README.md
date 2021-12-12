@@ -36,5 +36,6 @@ I can't say my project is a "good" one. My color management is primitive. And my
  
 ![png 01](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e9a2fd6f-ecb0-4d63-812b-d33043deb8a9/oeufs1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211212%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211212T103836Z&X-Amz-Expires=86400&X-Amz-Signature=e18a1756e080e1e3b7d6334f0d76548c266970b2d5150dd3d07b0b3b93ca4c76&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22oeufs1.png%22&x-id=GetObject)
 
+Feel free to clone, explore the code, and toussa toussa.
 * 42 Login:	*pforesti*
 * Email:		*pforesti@student.42nice.fr*
