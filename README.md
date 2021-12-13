@@ -14,7 +14,7 @@ The program can be tested on any Mac or Linux distribution with the MinilibX ins
   * Then run the ``make`` command from ``.fdf_42project/``.
 
 * Linux (Debian/Ubuntu)
-  * To install the MinilibX, follow the instructions from this link : [minilibx-mac-osx](https://github.com/dannywillems/minilibx-mac-osx)
+  * To install the MinilibX, follow the instructions from this link : [minilibx-linux](https://github.com/42Paris/minilibx-linux)
   * After installing all the necessary libraries. Clone the repo from the previous link into ``.fdf_42project/`` , and compile it using the ``./configure`` script.
   * Then run the ``make linux`` command from ``.fdf_42project/``.
 
