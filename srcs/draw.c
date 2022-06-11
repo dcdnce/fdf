@@ -6,7 +6,7 @@
 /*   By: pforesti <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/01 12:27:34 by pforesti          #+#    #+#             */
-/*   Updated: 2021/12/07 17:49:44 by pforesti         ###   ########.fr       */
+/*   Updated: 2022/06/11 08:15:15 by difool           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "../includes/fdf.h"
@@ -67,7 +67,7 @@ void	ft_draw_vertical(int **lst, t_fdf *fdf, int row, t_Mat33 mat)
 		v2.y = -lst[i + 1][row] * fdf->map.llen;
 		v2.z = (i + 1) * fdf->map.llen;
 		if (fdf->map.colbool)
-			ft_shittylerp(fdf, -v1.y, -v2.y);
+			ft_shittylerp(fdf, lst[i][row]);
 		ft_mat33_x_vec3(&v1, mat);
 		ft_mat33_x_vec3(&v2, mat);
 		v1.x += fdf->map.move.x + fdf->map.center.x;
@@ -95,7 +95,7 @@ void	ft_draw_horizontal(int *lst, t_fdf *fdf, int line, t_Mat33 mat)
 		v2.y = -lst[i] * fdf->map.llen;
 		v2.z = line * fdf->map.llen;
 		if (fdf->map.colbool)
-			ft_shittylerp(fdf, -v1.y, -v2.y);
+			ft_shittylerp(fdf, lst[i]);
 		ft_mat33_x_vec3(&v1, mat);
 		ft_mat33_x_vec3(&v2, mat);
 		v1.x += fdf->map.move.x + fdf->map.center.x;

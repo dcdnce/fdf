@@ -6,7 +6,7 @@
 /*   By: pforesti <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/07 13:59:37 by pforesti          #+#    #+#             */
-/*   Updated: 2021/12/07 15:51:39 by pforesti         ###   ########.fr       */
+/*   Updated: 2022/06/11 08:20:28 by difool           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,8 +25,8 @@
 # include "mlx_keycodes.h"
 # include "fdf_struct.h"
 
-# define SCREEN_X 600 
-# define SCREEN_Y 600
+# define SCREEN_X 400 
+# define SCREEN_Y 400
 # define BASE_ANGLE_X 35 
 # define BASE_ANGLE_Y 45
 
@@ -58,8 +58,9 @@ t_Mat33	ft_m33_roty(float angle);
 float	ft_dtr(float angle);
 
 /* color.c			*/
-void	ft_shittylerp(t_fdf *fdf, double v1Y, double v2Y);
+//void	ft_shittylerp(t_fdf *fdf, double v1Y, double v2Y);
 void	ft_shittylerp2(double v1Y, t_fdf *fdf, int step);
+void	ft_shittylerp(t_fdf *fdf, int v);
 
 /* main.c			*/
 void	ft_error(char *strerror, int flag);
