@@ -6,7 +6,7 @@
 /*   By: pforesti <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/01 12:27:34 by pforesti          #+#    #+#             */
-/*   Updated: 2022/06/11 08:15:15 by difool           ###   ########.fr       */
+/*   Updated: 2022/06/12 09:51:19 by difool           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "../includes/fdf.h"
@@ -28,9 +28,13 @@ static void	ft_center(t_vec2 *center, t_fdf *fdf, t_Mat33 mat)
 void	ft_init_draw(t_fdf *fdf)
 {
 	t_Mat33	mat;
+	int		color = ft_create_trgb(255, 107, 5, 4);
 
 	mlx_destroy_image(fdf->mlx.body, fdf->img.img);
 	fdf->img.img = mlx_new_image(fdf->mlx.body, SCREEN_X, SCREEN_Y);
+	for (int y = 0 ; y < SCREEN_Y ; y++)
+		for (int x = 0 ; x < SCREEN_X ; x++)
+			ft_my_mlx_pixel_put(&fdf->img, x, y, color);
 	ft_m33_prod(&mat, ft_m33_rotx(ft_dtr(fdf->map.ang.x)),
 		ft_m33_roty(ft_dtr(fdf->map.ang.y)));
 	ft_draw(fdf, mat);

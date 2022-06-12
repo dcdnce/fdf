@@ -6,7 +6,7 @@
 /*   By: pforesti <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/07 13:59:37 by pforesti          #+#    #+#             */
-/*   Updated: 2022/06/11 08:20:28 by difool           ###   ########.fr       */
+/*   Updated: 2022/06/12 09:00:56 by difool           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,8 +25,8 @@
 # include "mlx_keycodes.h"
 # include "fdf_struct.h"
 
-# define SCREEN_X 400 
-# define SCREEN_Y 400
+# define SCREEN_X 600 
+# define SCREEN_Y 600
 # define BASE_ANGLE_X 35 
 # define BASE_ANGLE_Y 45
 
