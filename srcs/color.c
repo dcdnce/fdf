@@ -6,7 +6,7 @@
 /*   By: difool <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/06 22:20:01 by difool            #+#    #+#             */
-/*   Updated: 2022/06/12 09:54:12 by difool           ###   ########.fr       */
+/*   Updated: 2022/09/06 11:03:47 by pforesti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "../includes/fdf.h"
@@ -26,5 +26,5 @@ void	ft_shittylerp(t_fdf *fdf, int v)
 	r = lerp(9, 249, t);
 	g = lerp(25, 235, t);
 	b = lerp(43, 224, t);
-	fdf->map.col = ft_create_trgb(255, r, g, b);
+	fdf->map.col = ft_create_trgb(0, r, g, b);
 }
