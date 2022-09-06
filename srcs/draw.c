@@ -6,7 +6,7 @@
 /*   By: pforesti <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/01 12:27:34 by pforesti          #+#    #+#             */
-/*   Updated: 2022/09/06 11:01:37 by pforesti         ###   ########.fr       */
+/*   Updated: 2022/09/06 15:21:22 by pforesti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "../includes/fdf.h"
@@ -35,7 +35,6 @@ void	ft_init_draw(t_fdf *fdf)
 	for (int y = 0 ; y < SCREEN_Y ; y++)
 		for (int x = 0 ; x < SCREEN_X ; x++)
 			ft_my_mlx_pixel_put(&fdf->img, x, y, color);
-	//memset(fdf->img.img, 0, SCREEN_X * SCREEN_Y * sizeof(int));
 	ft_m33_prod(&mat, ft_m33_rotx(ft_dtr(fdf->map.ang.x)),
 		ft_m33_roty(ft_dtr(fdf->map.ang.y)));
 	ft_draw(fdf, mat);
