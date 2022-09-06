@@ -16,7 +16,7 @@ The program can be tested on any Mac or Linux distribution with the MinilibX ins
 * Linux (Debian/Ubuntu)
   * To install the MinilibX, follow the instructions from this link : [minilibx-linux](https://github.com/42Paris/minilibx-linux)
   * After installing all the necessary libraries. Clone the repo from the previous link into ``.fdf_42project/`` , and compile it using the ``./configure`` script.
-  * Then run the ``make linux`` command from ``.fdf_42project/``.
+  * Then run the ``make`` command from ``.fdf_42project/``.
 
 ### Usage
 Type ``./fdf`` followed by the map of your choice as a parameter.\
@@ -30,7 +30,7 @@ Type ``./fdf`` followed by the map of your choice as a parameter.\
 * ``c`` key is used to activate or deactivate the color.
 
 ### Words
-I can't say my project is a "good" one. My color management is primitive. And my implementation of the Bresenham algorithm is not optimized at all. But I wanted to share, because I enjoyed making it. I've spent too many hours on it, but I learned a lot. And I encourage everyone who is taking their first steps in this project not to give up, it's worth it !
+I've spent too many hours on it, it's not perfect but I learned a lot. And I encourage everyone who is taking their first steps in this project not to give up, it's worth it.
 
  ![png 01](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9795aef1-a036-4c91-9242-a98c8236d1b6/waves.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211212%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211212T103805Z&X-Amz-Expires=86400&X-Amz-Signature=30d446324a5d45f1d7dd5a1a031a24d314f60576bd4cc867e920c5a171755200&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22waves.png%22&x-id=GetObject)
  
