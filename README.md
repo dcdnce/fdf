@@ -7,16 +7,16 @@ The goal of this project is to create a "wireframe" representation of a scene. T
 ### Setting Up
 The program can be tested on any Mac or Linux distribution with the MinilibX installed - the very basic library allowed for our first projects at 42.
 
-* On the school's computers: there is not much to do. Run ``make`` from ``.fdf_42project/``.
+* On the school's computers: there is not much to do. Run ``make`` from ``./fdf_42project``.
 
 * Mac OS X
   * To install the MinilibX, follow the instructions from this link : [minilibx-mac-osx](https://github.com/dannywillems/minilibx-mac-osx)
-  * Then run the ``make`` command from ``.fdf_42project/``.
+  * Then run the ``make`` command from ``./fdf_42project``.
 
 * Linux (Debian/Ubuntu)
   * To install the MinilibX, follow the instructions from this link : [minilibx-linux](https://github.com/42Paris/minilibx-linux)
   * After installing all the necessary libraries. Clone the repo from the previous link into ``.fdf_42project/`` , and compile it using the ``./configure`` script.
-  * Then run the ``make`` command from ``.fdf_42project/``.
+  * Then run the ``make`` command from ``./fdf_42project``.
 
 ### Usage
 Type ``./fdf`` followed by the map of your choice as a parameter.\
